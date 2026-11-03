@@ -24,4 +24,13 @@ y registrar cambios mediante Git.
 ## Estructura
 - index.html: página principal.
 - css/estilos.css: estilos de la página.
-- img/: recursos gráficos.
+- img/: recursos gráficos. 
+
+## Aprendizajes de la práctica
+
+Durante esta actividad aprendí a inicializar un repositorio,
+configurar mi identidad personal, preparar archivos con
+git add y registrar la primera versión mediante git commit.
+
+También utilicé git status, git log y Git Graph para
+verificar el estado y el historial del proyecto.
