@@ -41,3 +41,29 @@ footer {
     text-align: center;
     padding: 15px;
 }
+.seccion-ramas {
+    border-left: 5px solid #1976d2;
+    background-color: #eef5fc;
+}
+
+.seccion-ramas h2 {
+    color: #125a9e;
+}
+
+.seccion-ramas h3 {
+    color: #263238;
+    margin-top: 20px;
+}
+
+.seccion-ramas li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.seccion-ramas code {
+    background-color: #dbe9f6;
+    color: #17365d;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-family: Consolas, monospace;
+}
