@@ -33,6 +33,28 @@
             <p>GitHub es una plataforma que permite alojar
                repositorios Git y colaborar en proyectos.</p>
         </section>
+              <section class="seccion-ramas">
+          <h2>3.1. Manejo de ramas en Git</h2>
+          <p>Las ramas permiten desarrollar nuevas funcionalidades
+             sin modificar directamente la rama principal del proyecto.</p>
+
+          <h3>Comandos para trabajar con ramas</h3>
+          <ul>
+              <li><code>git branch</code>: consultar las ramas existentes.</li>
+              <li><code>git switch -c feature/seccion-ramas</code>:
+                  crear una rama y cambiar a ella.</li>
+              <li><code>git switch main</code>:
+                  regresar a la rama principal.</li>
+              <li><code>git merge feature/seccion-ramas</code>:
+                  integrar los cambios de la rama de trabajo.</li>
+              <li><code>git log --oneline --graph --all</code>:
+                  visualizar el historial de las ramas.</li>
+          </ul>
+
+          <p>En esta práctica utilizo una rama feature para incorporar
+             contenido HTML y CSS mediante dos commits, antes de
+             fusionarla con main.</p>
+      </section>
          
 <section>
     <h2>4. Comandos básicos de Git</h2>
@@ -41,7 +63,7 @@
         <li>git init: inicializar repositorios.</li>
         <li>git status: consultar cambios.</li>
         <li>git add: preparar archivos.</li>
-        <li>git commit: registrar versiones.</li>
+        <li>git commi0t: registrar versiones.</li>
         <li>git log: consultar el historial.</li>
         <li>git branch: administrar ramas.</li>
     </ul>
